@@ -1,13 +1,43 @@
 .jumbotron {
-  background-image: url('/images/congruent_outline.png');
+  // background-color: $black444;
+  // background-image: url('/images/congruent_outline.png');
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 .jumbotron__slogan {
   margin: 0;
-  color: $grey50;
+  color: #222;
+  // color: $grey50;
   font-family: "Georgia", serif;
   font-weight: normal;
-  font-size: 3em;
+  font-size: 3.5em;
+  letter-spacing: -2px;
+}
+
+.jumbotron__button {
+  margin-top: 70px;
+  background-color: white;
+  padding: 0 35px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: $blue600;
+
+  -webkit-transition: background-color 0.07s linear;
+  -moz-transition: background-color 0.07s linear;
+  -o-transition: background-color 0.07s linear;
+  -ms-transition: background-color 0.07s linear;
+  transition: background-color 0.07s linear;
+
+  &:hover {
+    background-color: $blue800;
+  }
 }
