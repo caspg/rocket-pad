@@ -25,11 +25,11 @@
 .tech-item-logo--react {
   svg {
     path {
-      stroke: #BBDEFB;
+      stroke: $blue100;
     }
 
     circle {
-      fill: #BBDEFB;
+      fill: $blue100;
     }
   }
 }
@@ -37,7 +37,7 @@
 .tech-item-logo--node {
   svg {
     * {
-      fill: #A5D6A7;
+      fill: $green200;
     }
   }
 }
@@ -48,7 +48,7 @@
     padding: 10px 0;
 
     * {
-      fill: #FFCC80;
+      fill: $orange200;
     }
   }
 }
@@ -59,7 +59,7 @@
     padding: 10px 0;
 
     * {
-      fill: #EF5350;
+      fill: $red400;
     }
   }
 }
