@@ -2,8 +2,9 @@
 @import "shared/normalize";
 @import "shared/colors";
 @import "shared/variables";
-
 @import "shared/navbar";
+
+@import "home/jumbotron";
 
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
