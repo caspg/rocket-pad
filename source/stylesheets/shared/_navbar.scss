@@ -1,7 +1,6 @@
 .navbar {
-  height: 100px;
   border-bottom: 1px solid black;
-  padding: 0 20px;
+  padding: 24px 20px;
 
   .navbar__wrapper {
     max-width: 900px;
@@ -15,9 +14,11 @@
   .logo__main {
     margin: 0;
     color: $black222;
+    font-size: 1.8em;
   }
 
   .logo__caption {
+    margin: 0;
     color: $grey500;
   }
 }
