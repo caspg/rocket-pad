@@ -1,5 +1,13 @@
 .jumbotron {
-  height: 500px;
-  background-image: url('/images/congruent_outline.png')
-  // background-image: url('/images/escheresque_ste.png')
+  background-image: url('/images/congruent_outline.png');
+  text-align: center;
+  padding: 100px 0;
+}
+
+.jumbotron__slogan {
+  margin: 0;
+  color: $grey50;
+  font-family: "Georgia", serif;
+  font-weight: normal;
+  font-size: 3em;
 }
