@@ -1,6 +1,6 @@
 .navbar {
-  border-bottom: 1px solid black;
   padding: 24px 20px;
+  box-shadow: 0 2px 4px 0 #424242;
 
   .navbar__wrapper {
     max-width: 900px;
@@ -10,15 +10,44 @@
 
 .logo {
   text-decoration: none;
+  display: inline-block;
 
   .logo__main {
     margin: 0;
     color: $black222;
     font-size: 1.8em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
   }
 
   .logo__caption {
     margin: 0;
     color: $grey500;
+  }
+}
+
+.main_nav {
+  display: inline-block;
+  float: right;
+
+  .main_nav__list {
+    margin: 0;
+  }
+
+  .main_nav__item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  .main_nav__link {
+    color: $black444;
+    text-decoration: none;
+    font-size: 1.4em;
+
+    &:hover {
+      color: $black222;
+    }
   }
 }
