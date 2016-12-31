@@ -1,0 +1,23 @@
+.navbar {
+  height: 100px;
+  border-bottom: 1px solid black;
+  padding: 0 20px;
+
+  .navbar__wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  text-decoration: none;
+
+  .logo__main {
+    margin: 0;
+    color: $black222;
+  }
+
+  .logo__caption {
+    color: $grey500;
+  }
+}
