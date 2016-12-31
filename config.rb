@@ -28,11 +28,14 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def inline_svg(name)
+    root = Middleman::Application.root
+    file_path = "#{root}/source/images/#{name}.svg"
+    return File.read(file_path) if File.exist?(file_path)
+    '(not found)'
+  end
+end
 
 # Build-specific configuration
 configure :build do
