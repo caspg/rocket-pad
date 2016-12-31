@@ -1,13 +1,67 @@
-.tech__logo--react {
-  height: 200px;
+.tech-details {
+  margin: 100px 0;
+}
+
+.tech-details__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tech-item {
+  display: inline-block;
+}
+
+.tech-item-logo {
+  margin: 0 50px;
 
   svg {
+    height: 100px;
+  }
+}
+
+.tech-item-logo--react {
+  svg {
     path {
-      stroke: red;
+      stroke: #BBDEFB;
     }
 
     circle {
-      fill: red
+      fill: #BBDEFB;
     }
   }
+}
+
+.tech-item-logo--node {
+  svg {
+    * {
+      fill: #A5D6A7;
+    }
+  }
+}
+
+.tech-item-logo--d3 {
+  svg {
+    height: 80px;
+    padding: 10px;
+
+    * {
+      fill: #FFCC80;
+    }
+  }
+}
+
+.tech-item-logo--rails {
+  svg {
+    height: 80px;
+    padding: 10px;
+
+    * {
+      fill: #EF5350;
+    }
+  }
+}
+
+.tech-item__label {
+
 }
