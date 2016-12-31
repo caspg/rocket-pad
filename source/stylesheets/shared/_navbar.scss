@@ -16,18 +16,27 @@
 
   .main_nav__list {
     margin: 0;
+    padding: 0;
   }
 
   .main_nav__item {
     list-style: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 15px;
+
+    @media screen and(min-width: $small_breakpoint) {
+      margin-left: 25px;
+    }
   }
 
   .main_nav__link {
     color: $black444;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
+
+    @media screen and(min-width: $small_breakpoint) {
+      font-size: 1.4em;
+    }
 
     &:hover {
       color: $black222;
