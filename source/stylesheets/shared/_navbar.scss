@@ -3,9 +3,14 @@
   height: $navbar_height;
   line-height: $navbar_height;
   padding: 0 20px;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   background-color: white;
+  box-shadow: none;
+
+  -webkit-transition: box-shadow .3s ease-in-out;
+  -moz-transition: box-shadow .3s ease-in-out;
+  -o-transition: box-shadow .3s ease-in-out;
+  -ms-transition: box-shadow .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out;
 
   .navbar__wrapper {
     max-width: 900px;
