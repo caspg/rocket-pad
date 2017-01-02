@@ -1,0 +1,38 @@
+.about {
+  padding: 0 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+.about__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about__header {
+  text-align: center;
+}
+
+.about_picture-wrapper {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.about__profile-picture {
+  width: 200px;
+  height: auto;
+  border-radius: 150px;
+}
+
+.about__description {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.about__description-paragraph {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: $black444;
+}
