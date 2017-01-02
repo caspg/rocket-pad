@@ -8,13 +8,16 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css" media="none" onload="if(media!='all')media='all'">
+    <noscript><link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css"></noscript>
 
     <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
+
+    <%= javascript_include_tag :headroom %>
+    <%= javascript_include_tag :all %>
   </body>
 </html>
