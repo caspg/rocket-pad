@@ -1,0 +1,38 @@
+.contact {
+  padding: 0 30px;
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.contact__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact__text {
+  margin-bottom: 80px;
+  font-size: 1.2em;
+  color: $black444;
+}
+
+.contact__email {
+  color: $blue600;
+  font-size: 2em;
+  text-decoration: none;
+
+  -webkit-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out;
+
+  &:hover {
+    color: $blue800;
+  }
+
+  @media screen and(min-width: $small_breakpoint) {
+    font-size: 3em;
+  }
+}
+
+.contact__email-honypot {
+  display: none;
+}
