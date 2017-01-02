@@ -1,6 +1,5 @@
 .projects {
   padding: 100px 30px;
-  margin-bottom: 100px;
 }
 
 .projects__wrapper {
@@ -25,6 +24,9 @@
     z-index: 1;
 
     -webkit-transition: transform .25s ease-in-out;
+    -moz-transition: transform .25s ease-in-out;
+    -o-transition: transform .25s ease-in-out;
+    -ms-transition: transform .25s ease-in-out;
     transition: transform .25s ease-in-out;
   }
 }
@@ -38,9 +40,13 @@
   background-color: rgba(0, 0, 0, 0.7);
   padding-bottom: 2px;
   z-index: 2;
-  -webkit-transition: opacity .25s ease-in-out;
-  transition: opacity .25s ease-in-out;
   opacity: 0;
+
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
 
   &:hover {
     opacity: 1;
