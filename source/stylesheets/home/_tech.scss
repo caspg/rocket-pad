@@ -35,6 +35,15 @@
   svg {
     height: 100px;
     width: 120px;
+
+    * {
+      -webkit-transition: fill .2s ease-in-out, stroke .2s ease-in-out;
+      -moz-transition: fill .2s ease-in-out, stroke .2s ease-in-out;
+      -o-transition: fill .2s ease-in-out, stroke .2s ease-in-out;
+      -ms-transition: fill .2s ease-in-out, stroke .2s ease-in-out;
+      transition: fill .2s ease-in-out, stroke .2s ease-in-out;
+    }
+
   }
 }
 
@@ -47,6 +56,16 @@
     circle {
       fill: #444;
     }
+
+    &:hover {
+      path {
+        stroke: $blue100;
+      }
+
+      circle {
+        fill: $blue100;
+      }
+    }
   }
 }
 
@@ -54,6 +73,12 @@
   svg {
     * {
       fill: #444;
+    }
+
+    &:hover {
+      * {
+        fill: $green200;
+      }
     }
   }
 }
@@ -66,6 +91,12 @@
     * {
       fill: #444;
     }
+
+    &:hover {
+      * {
+        fill: $orange200;
+      }
+    }
   }
 }
 
@@ -76,6 +107,12 @@
 
     * {
       fill: #444;
+    }
+
+    &:hover {
+      * {
+        fill: $red400;
+      }
     }
   }
 }

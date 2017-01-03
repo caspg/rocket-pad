@@ -36,3 +36,20 @@
 .contact__email-honypot {
   display: none;
 }
+
+.contact__public-profiles {
+  margin-top: 50px;
+}
+
+.public-profile {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+
+  a {
+    color: #444;
+  }
+
+  a:hover {
+    color: #222;
+  }
+}
