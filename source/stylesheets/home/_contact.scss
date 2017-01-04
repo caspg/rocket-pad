@@ -18,7 +18,7 @@
 
 .contact__email {
   color: $blue600;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
 
   -webkit-transition: color 0.1s ease-in-out;
@@ -26,6 +26,10 @@
 
   &:hover {
     color: $blue800;
+  }
+
+  @media screen and(min-width: $xsmall_breakpoint) {
+    font-size: 2em;
   }
 
   @media screen and(min-width: $small_breakpoint) {
