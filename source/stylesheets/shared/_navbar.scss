@@ -3,14 +3,13 @@
   height: $navbar_height;
   line-height: $navbar_height;
   padding: 0 20px;
-  background-color: white;
   box-shadow: none;
 
-  -webkit-transition: box-shadow .3s ease-in-out;
-  -moz-transition: box-shadow .3s ease-in-out;
-  -o-transition: box-shadow .3s ease-in-out;
-  -ms-transition: box-shadow .3s ease-in-out;
-  transition: box-shadow .3s ease-in-out;
+  -webkit-transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+  -moz-transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+  -o-transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+  -ms-transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
 
   .navbar__wrapper {
     max-width: 900px;

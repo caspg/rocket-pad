@@ -5,16 +5,20 @@
   padding-bottom: 100px;
   border-bottom: 1px solid #ddd;
   color: #222;
+
+  background: url('/images/brickwall.png')
 }
 
 .jumbotron__wrapper {
   max-width: 900px;
   margin: 0 auto;
+  font-family: "Georgia", serif;
 }
 
 .jumbotron__text {
   margin: 0;
   margin-bottom: 30px;
+  font-weight: lighter;
 }
 
 .jumbotron__text-name {
@@ -23,8 +27,6 @@
 
 .jumbotron__slogan {
   margin: 0;
-  font-family: "Georgia", serif;
-  font-weight: normal;
   font-size: 4em;
   font-weight: bold;
   letter-spacing: -2px;
