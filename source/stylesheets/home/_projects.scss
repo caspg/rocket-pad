@@ -41,7 +41,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   padding-bottom: 2px;
   z-index: 2;
-  opacity: 0;
+  opacity: 0.08;
 
   -webkit-transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
@@ -56,6 +56,10 @@
   &:hover ~ img {
     transform: scale(1.1);
   }
+
+  &:hover .projects__item-title {
+    opacity: 1;
+  }
 }
 
 .projects__item-title {
@@ -65,6 +69,7 @@
   transform: translate(-50%, -50%);
   margin: 0;
   color: $grey50;
+  opacity: 0;
 }
 
 .projects-grid {

@@ -51,9 +51,26 @@
 
   a {
     color: #444;
+    text-decoration: none;
   }
 
   a:hover {
     color: #222;
   }
+
+  a:hover .public-profile__icon {
+    opacity: 0.9;
+  }
+}
+
+.public-profile__icon {
+  width: 20px;
+  vertical-align: bottom;
+  opacity: 0.8;
+}
+
+.public-profile__text {
+  margin-left: 15px;
+  text-decoration: underline;
+  vertical-align: top;
 }
