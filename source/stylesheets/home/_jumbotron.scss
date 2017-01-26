@@ -1,12 +1,11 @@
 .jumbotron {
+  position: relative;
   text-align: left;
   padding: 0 30px;
   padding-top: 180px;
   padding-bottom: 100px;
-  border-bottom: 1px solid #ddd;
-  color: #222;
 
-  background: url('/images/brickwall.png')
+  color: #222;
 }
 
 .jumbotron__wrapper {
@@ -19,6 +18,7 @@
   margin: 0;
   margin-bottom: 30px;
   font-weight: lighter;
+  color: #222;
 }
 
 .jumbotron__text-name {
@@ -27,8 +27,8 @@
 
 .jumbotron__slogan {
   margin: 0;
-  font-size: 4em;
-  font-weight: bold;
+  font-size: 4.5em;
+  font-weight: normal;
   letter-spacing: -2px;
 }
 
@@ -56,5 +56,24 @@
 
   &:hover {
     background-color: $blue800;
+  }
+}
+
+.jumbotron__background-gradient {
+  background: -webkit-linear-gradient(45deg, #e6e6e6, #fafafa);
+  background-image: linear-gradient(45deg, #e6e6e6, #fafafa);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  transform: skewY(-12deg);
+
+  transform-origin: 0;
+
+  @media screen and(max-width: $small_breakpoint) {
+    transform-origin: 0;
   }
 }
